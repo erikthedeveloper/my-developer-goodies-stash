@@ -23,4 +23,4 @@
 - SyncedSideBar
 - Tag
 
-... Details/More Coming Soon
+... I have finally made the switch to ST3. I suggest you do the same. See my ST3 list for ... fun.
