@@ -1,0 +1,32 @@
+{
+    "installed_packages":
+    [
+        "Alignment",
+        "Behat",
+        "Better CoffeeScript",
+        "Bootstrap 3 Snippets",
+        "BracketHighlighter",
+        "Colorsublime",
+        "Comment-Snippets",
+        "Dayle Rees Color Schemes",
+        "DocBlockr",
+        "Emmet",
+        "ERB Snippets",
+        "Gist",
+        "Git",
+        "GitGutter",
+        "Handlebars",
+        "Laravel Blade Highlighter",
+        "LESS",
+        "PHPUnit",
+        "PHPUnit Completions",
+        "SFTP",
+        "SideBarEnhancements",
+        "SublimeCodeIntel",
+        "SublimeLinter",
+        "SublimeLinter-annotations",
+        "SublimeLinter-php",
+        "Tag",
+        "Theme - Spacegray"
+    ]
+}

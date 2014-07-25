@@ -1,0 +1,17 @@
+[
+// Navigation
+    { "keys": ["super+alt+left"],  "command": "jump_back" },
+    { "keys": ["super+alt+right"], "command": "jump_forward" },
+// Focus/Navigation
+    {"keys": ["super+shift+1"],             "command": "set_layout", "args": {"cols": [0.0, 1.0], "rows": [0.0, 1.0], "cells": [[0, 0, 1, 1]] } },
+    {"keys": ["super+shift+2"],             "command": "set_layout", "args": {"cols": [0.0, 0.5, 1.0], "rows": [0.0, 1.0], "cells": [[0, 0, 1, 1], [1, 0, 2, 1]] } },
+    { "keys": ["super+k", "super+["],       "command": "focus_neighboring_group", "args": {"forward": false} },
+    { "keys": ["super+k", "super+]"],       "command": "focus_neighboring_group" },
+    { "keys": ["super+k", "super+shift+["], "command": "move_to_neighboring_group", "args": {"forward": false} },
+    { "keys": ["super+k", "super+shift+]"], "command": "move_to_neighboring_group" },
+    { "keys": ["super+1"], "command": "focus_side_bar" },
+// Minimalism/Toggle
+    {"keys": ["super+ctrl+s"], "command": "toggle_side_bar"},
+    {"keys": ["super+ctrl+l"], "command": "toggle_setting", "args": {"setting": "line_numbers"} },
+    {"keys": ["super+ctrl+t"], "command": "toggle_tabs"}
+]
