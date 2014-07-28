@@ -12,13 +12,13 @@
     "highlight_modified_tabs": true,
     "ignored_packages":
     [
-        "Lisp",
-        "PHPUnit",
-        "RestructuredText",
         "SublimeLinter-annotations",
-        "Vintage",
+        "Lisp",
+        "RestructuredText",
         "SublimeLinter",
-        "SublimeLinter-php"
+        "PHPUnit",
+        "SublimeLinter-php",
+        "Gist"
     ],
     "line_numbers": false,
     "line_padding_bottom": 6,
@@ -29,6 +29,6 @@
     "theme": "Spacegray Eighties.sublime-theme",
     "translate_tabs_to_spaces": true,
     "trim_trailing_white_space_on_save": true,
-    "use_simple_full_screen": false,
+    "use_simple_full_screen": true,
     "word_wrap": false
 }

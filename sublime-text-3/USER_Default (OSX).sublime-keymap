@@ -13,5 +13,7 @@
 // Minimalism/Toggle
     {"keys": ["super+ctrl+s"], "command": "toggle_side_bar"},
     {"keys": ["super+ctrl+l"], "command": "toggle_setting", "args": {"setting": "line_numbers"} },
-    {"keys": ["super+ctrl+t"], "command": "toggle_tabs"}
+    {"keys": ["super+ctrl+t"], "command": "toggle_tabs"},
+// Vim mode
+    { "keys": ["j", "j"], "command": "exit_insert_mode", "context": [{ "key": "setting.command_mode", "operand": false }, { "key": "setting.is_widget", "operand": false } ] }
 ]
